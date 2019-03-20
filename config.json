@@ -3,7 +3,6 @@
   "menu": {
      "merchant_details": {
         "label": "Config.globalTab",
-        "fullWidth": true,
         "formFields": {
            "api_key": {
               "type": "inputText",
@@ -65,7 +64,7 @@
               "label": "Config.globalaccesskey",
               "options": {
                  "tooltip": "Config.globalconfigTooltip",
-                 "defaultValue": ""
+                 "defaultValue": "a87ff679a2f3e71d9181a67b7542122c"
               }
            },
            "referrer_id": {
@@ -74,7 +73,7 @@
               "label": "Config.globalreferrerid",
               "options": {
                  "tooltip": "Config.globalconfigTooltip",
-                 "defaultValue": ""
+                 "defaultValue": "12345"
               }
            },
            "notify_url": {
