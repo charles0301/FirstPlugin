@@ -38,7 +38,7 @@
               "label": "Config.globaltariff",
               "options": {
                  "tooltip": "Config.globalconfigTooltip",
-                 "defaultValue": "Select Tariff",
+                 "defaultValue": "",
                  "selectBoxValues": [
                           {
                              "value": "30",
