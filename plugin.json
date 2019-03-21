@@ -10,5 +10,5 @@
     "authorIcon"        : "icon_author_xs.png",
     "email"             : "charles_a@novalnetsolutions.com",
     "phone"             : "1234567890",
-    "serviceProvider"   : null
+    "serviceProvider"   : "FirstPlugin\\Providers\\FirstPluginServiceProvider"
 }
