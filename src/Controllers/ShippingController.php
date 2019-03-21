@@ -6,7 +6,7 @@ use Plenty\Plugin\ConfigRepository;
 use Plenty\Plugin\Http\Request;
 use Plenty\Plugin\Http\Response;
 
-class PaymentNotificationController extends Controller
+class ShippingController extends Controller
 {
     private $request;
     private $response;
