@@ -5,6 +5,7 @@ use Plenty\Plugin\Controller;
 use Plenty\Plugin\ConfigRepository;
 use Plenty\Plugin\Http\Request;
 use Plenty\Plugin\Http\Response;
+use Plenty\Plugin\Templates\Twig;
 
 class ShippingController extends Controller
 {
@@ -21,6 +22,6 @@ class ShippingController extends Controller
     
     public function configValues()
 	{
-		echo"<pre>";print_r($this->config);exit;
+           return $twig->render('FirstPlugin::content.first');
 	}
 }
