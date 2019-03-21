@@ -1,0 +1,14 @@
+{
+    "name"              : "FirstPlugin",
+    "namespace"         : "FirstPlugin",
+    "type"              : "backend",
+    "version"           : "1.0.0",
+    "isClosedSource"    : false,
+    "pluginIcon"        : "my_icon.png",
+    "description"       : "this is my first plugin for dispaly the backend configuration field",
+    "author"            : "charles",
+    "authorIcon"        : "icon_author_xs.png",
+    "email"             : "charles_a@novalnetsolutions.com",
+    "phone"             : "1234567890",
+    "serviceProvider"   : null
+}
