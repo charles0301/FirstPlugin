@@ -20,7 +20,10 @@ class ShippingController extends Controller
         $this->response = $response;
         $this->config = $config;
     }
-    
+    /**
+	 * @param Twig $twig
+	 * @return string
+	 */
     public function configValues(Twig $twig):string
 	{
 		return $twig->render('FirstPlugin::content.first', ['configValuess'=> $this->config]);
