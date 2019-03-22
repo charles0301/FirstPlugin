@@ -1,11 +1,12 @@
 <div class="row">
  <h1> My First Plugin </h1>
  
- <h1>
- {% for configValuess in user.profile.categories %}
-   {{ configValuess }}
-{% endfor %}
-</h1>
+<h1>members</h1>
+<ul>
+{% for key in configValuess|keys %}
+        <li>{{ key }}</li>
+  {% endfor %}
+  </ul>
 </div>
 
 
