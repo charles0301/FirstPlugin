@@ -1,9 +1,8 @@
 {
     "name"              : "FirstPlugin",
     "namespace"         : "FirstPlugin",
-    "type"              : "remplate",
+    "type"              : "template",
     "version"           : "1.0.0",
-    "isClosedSource"    : false,
     "pluginIcon"        : "my_icon.png",
     "description"       : "this is my first plugin for dispaly the backend configuration field",
     "author"            : "charles",
