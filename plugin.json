@@ -1,7 +1,7 @@
 {
     "name"              : "FirstPlugin",
     "namespace"         : "FirstPlugin",
-    "type"              : "backend",
+    "type"              : "remplate",
     "version"           : "1.0.0",
     "isClosedSource"    : false,
     "pluginIcon"        : "my_icon.png",
