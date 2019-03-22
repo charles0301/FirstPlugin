@@ -21,6 +21,7 @@ class ShippingController extends Controller
 	 */
     public function configValues()
 	{
-		return $this->twig->render('FirstPlugin::content.first', array('configValuess' =>$this->config));
+	        $get_config = $this->config->get('FirstPlugin');
+		return $this->twig->render('FirstPlugin::content.first', array('configValuess' =>$get_config));
 	}
 }
