@@ -12,6 +12,7 @@ class ShippingController extends Controller
     private $request;
     private $response;
     private $config;
+    private $twig;
     
     public function __construct(Request $request, Response $response, ConfigRepository $config, Twig $twig)
     {
