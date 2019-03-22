@@ -23,9 +23,6 @@ class ShippingController extends Controller
     
     public function configValues()
 	{
-		return $this->twig->render('FirstPlugin::content.first', [
-															   'formData'     => 'My',
-																'nnPaymentUrl' => 'First Plugin'
-								   ]);
+		return $this->twig->render('FirstPlugin::content.first', ['configValuess'=> $this->config]);
 	}
 }
