@@ -18,11 +18,14 @@ class ShippingController extends Controller
         $this->request = $request;
         $this->response = $response;
         $this->config = $config;
-	$this->twig = $twig;
+        $this->twig = $twig;
     }
     
     public function configValues()
 	{
-           return $this->twig->render('FirstPlugin::content.first',array('formData'=> 'hii'));
+		return $this->twig->render('FirstPlugin::content.first', [
+															   'formData'     => 'My',
+																'nnPaymentUrl' => 'First Plugin'
+								   ]);
 	}
 }
