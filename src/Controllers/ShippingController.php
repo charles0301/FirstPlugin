@@ -14,18 +14,19 @@ class ShippingController extends Controller
     private $config;
     private $twig;
     
-    public function __construct(Request $request, Response $response, ConfigRepository $config)
+    public function __construct(Request $request, Response $response, ConfigRepository $config, Twig $twig)
     {
         $this->request = $request;
         $this->response = $response;
         $this->config = $config;
+	$this->twig = $twig;
     }
     /**
 	 * @param Twig $twig
 	 * @return string
 	 */
-    public function configValues(Twig $twig):string
+    public function configValues()
 	{
-		return $twig->render('FirstPlugin::content.first', ['configValuess'=> $this->config]);
+		return $this->twig->render('FirstPlugin::content.first');
 	}
 }
